@@ -1,6 +1,6 @@
 // 18_5: Array of Objects And Access Object inside an Array
 
-
+// Object of Array
 
 const numbers = [1, 2, 43, 54, 4];
 const players = [{}, {}, {}];
