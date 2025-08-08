@@ -2,12 +2,15 @@
 
 // Function syntex: function mane(){}
 
-const price = 45;
+// const price = 45;
 
-function fanOffKor(){
-    console.log('bosa thke uthe dara');
-    console.log('walk towards the switch');
+// function fanOffKor(){
+//     console.log('bosa thke uthe dara');
+//     console.log('walk towards the switch');
 
-}
+// }
 // call the function
-fanOffKor();
+// fanOffKor();
+
+
+
