@@ -10,7 +10,7 @@ function inchToFeet(inch){
 const shuvoHeight = inchToFeet(75);
 // console.log(shuvoHeight);
 
-// 12 inch 1 Feet (Another option)
+// 12 inch 1 Feet (Another example)
 function inchToFeet2(inch){
     const feetFraction = inch / 12;
     const feetNumber = parseInt(feetFraction);
@@ -19,8 +19,24 @@ function inchToFeet2(inch){
     return result;
 }
 const shuvoHeight2 = inchToFeet2(75);
-console.log(shuvoHeight2);
+// console.log(shuvoHeight2);
 
+
+// Mile to Kelometer convert 
+
+function mileToKilometer(mile){
+    const kilometer = mile * 1.60934;
+    return kilometer;
+}
+const kilometer = mileToKilometer(1);
+// console.log(kilometer);
+
+
+// Mile to kelometer convert another example\
+function mileToKilometer2(mile){
+    const kilometer = mile * 1.60934;
+    return kilometer;
+}
 
 
 
