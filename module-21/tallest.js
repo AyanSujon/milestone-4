@@ -31,3 +31,5 @@ const min = getMin(lowest);
 console.log('Min number is: ', min);
 
 
+
+
