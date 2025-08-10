@@ -38,3 +38,6 @@ console.log('average of the odd numbers is: ', avg);
 
 
 
+
+
+
