@@ -5,10 +5,8 @@ function willSuccess( marks ) {
 // You have to write your code here
 let pass = 0;
 let fail = 0; 
-// if(!Array.isArray()){
-//     return false;
-// }
-if( typeof marks !== "array"){
+
+if( !Array.isArray(marks)){
     return "Invalid";
     }
 if(marks.length === 0){
@@ -28,7 +26,7 @@ return pass > fail;
 
 
 
-let output = willSuccess([ 90 , 99 , 87 , 48 , 34 , 49 ]);
+let output = willSuccess([60, 70, 80, 40, 30]);
 
 console.log(output);
 
